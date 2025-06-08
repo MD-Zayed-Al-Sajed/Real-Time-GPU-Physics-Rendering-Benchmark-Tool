@@ -1,0 +1,30 @@
+# Ignore build artifacts and generated files
+/build/
+/out/
+/.vs/
+/CMakeFiles/
+/CMakeCache.txt
+/*.sln
+/*.vcxproj*
+*.user
+*.log
+*.exe
+*.ipch
+*.db
+*.tlog
+*.obj
+*.pch
+*.pdb
+*.ninja
+*.cache
+*.vcxproj*
+*.opensdf
+*.sdf
+
+# Ignore ImGui and GLFW build folders if needed
+third_party/glfw/build/
+third_party/imgui/build/
+
+# VS Code and JetBrains project files
+.vscode/
+.idea/
