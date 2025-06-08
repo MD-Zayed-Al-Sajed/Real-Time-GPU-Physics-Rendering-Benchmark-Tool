@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{019FB520-BFC2-38FB-A444-2A1B3F4A4624}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>GPUBenchmarkTool</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 12.9.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GPUBenchmarkTool.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GPUBenchmarkTool</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GPUBenchmarkTool.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GPUBenchmarkTool</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GPUBenchmarkTool.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GPUBenchmarkTool</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GPUBenchmarkTool.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GPUBenchmarkTool</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>Z:\Softower\Installed\VulcanSDK\Include;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\glfw\include;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\imgui;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\imgui\backends;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;IMGUI_IMPL_VULKAN_NO_PROTOTYPES;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;IMGUI_IMPL_VULKAN_NO_PROTOTYPES;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>Z:\Softower\Installed\VulcanSDK\Include;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\glfw\include;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\imgui;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\imgui\backends;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <CudaCompile>
+      <Include>Z:\Softower\Installed\VulcanSDK\Include;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\glfw\include;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\imgui;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\imgui\backends;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\src;%(Include)</Include>
+      <Defines>%(Defines);_WINDOWS;IMGUI_IMPL_VULKAN_NO_PROTOTYPES;CMAKE_INTDIR="Debug"</Defines>
+      <AdditionalOptions>%(AdditionalOptions) -std=c++17 --generate-code=arch=compute_75,code=[compute_75,sm_75] --generate-code=arch=compute_86,code=[compute_86,sm_86] --generate-code=arch=compute_89,code=[compute_89,sm_89] --generate-code=arch=compute_90,code=[compute_90,sm_90] -Xcompiler="/EHsc -Zi -Ob0"</AdditionalOptions>
+      <CodeGeneration></CodeGeneration>
+      <CompileOut>$(IntDir)%(Filename).obj</CompileOut>
+      <CudaRuntime>Static</CudaRuntime>
+      <GPUDebugInfo>false</GPUDebugInfo>
+      <GenerateRelocatableDeviceCode>true</GenerateRelocatableDeviceCode>
+      <Optimization>Od</Optimization>
+      <Runtime>MDd</Runtime>
+      <RuntimeChecks>RTC1</RuntimeChecks>
+      <TargetMachinePlatform>64</TargetMachinePlatform>
+      <UseHostInclude>false</UseHostInclude>
+    </CudaCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>Z:\Softower\Installed\VulcanSDK\Include;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\glfw\include;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\imgui;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\imgui\backends;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>third_party\glfw\src\Debug\glfw3.lib;Debug\imgui.lib;Z:\Softower\Installed\VulcanSDK\Lib\vulkan-1.lib;cudadevrt.lib;cudart_static.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>Z:/Softower/Installed/VulcanSDK/Lib;Z:/Softower/Installed/VulcanSDK/Lib/$(Configuration);Z:/Softower/Installed/CUDAToolkit/lib/x64;Z:/Softower/Installed/CUDAToolkit/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>Z:/Projects/Real-Time GPU Physics &amp; Rendering Benchmark Tool/GPUBenchmarkTool/build/Debug/GPUBenchmarkTool.lib</ImportLibrary>
+      <ProgramDataBaseFile>Z:/Projects/Real-Time GPU Physics &amp; Rendering Benchmark Tool/GPUBenchmarkTool/build/Debug/GPUBenchmarkTool.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <CudaLink>
+      <AdditionalOptions>-forward-unknown-to-host-compiler -Wno-deprecated-gpu-targets -D_WINDOWS -Xcompiler=" /EHsc" -Xcompiler=" -Zi -Ob0 -Od /RTC1" "--generate-code=arch=compute_75,code=[compute_75,sm_75]" "--generate-code=arch=compute_86,code=[compute_86,sm_86]" "--generate-code=arch=compute_89,code=[compute_89,sm_89]" "--generate-code=arch=compute_90,code=[compute_90,sm_90]" -Xcompiler=-MDd</AdditionalOptions>
+      <PerformDeviceLink>true</PerformDeviceLink>
+    </CudaLink>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>Z:\Softower\Installed\VulcanSDK\Include;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\glfw\include;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\imgui;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\imgui\backends;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IMGUI_IMPL_VULKAN_NO_PROTOTYPES;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IMGUI_IMPL_VULKAN_NO_PROTOTYPES;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>Z:\Softower\Installed\VulcanSDK\Include;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\glfw\include;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\imgui;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\imgui\backends;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <CudaCompile>
+      <Include>Z:\Softower\Installed\VulcanSDK\Include;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\glfw\include;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\imgui;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\imgui\backends;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\src;%(Include)</Include>
+      <Defines>%(Defines);_WINDOWS;NDEBUG;IMGUI_IMPL_VULKAN_NO_PROTOTYPES;CMAKE_INTDIR="Release"</Defines>
+      <AdditionalOptions>%(AdditionalOptions) -std=c++17 --generate-code=arch=compute_75,code=[compute_75,sm_75] --generate-code=arch=compute_86,code=[compute_86,sm_86] --generate-code=arch=compute_89,code=[compute_89,sm_89] --generate-code=arch=compute_90,code=[compute_90,sm_90] -Xcompiler="/EHsc -Ob2"</AdditionalOptions>
+      <CodeGeneration></CodeGeneration>
+      <CompileOut>$(IntDir)%(Filename).obj</CompileOut>
+      <CudaRuntime>Static</CudaRuntime>
+      <GPUDebugInfo>false</GPUDebugInfo>
+      <GenerateRelocatableDeviceCode>true</GenerateRelocatableDeviceCode>
+      <Optimization>O2</Optimization>
+      <Runtime>MD</Runtime>
+      <TargetMachinePlatform>64</TargetMachinePlatform>
+      <UseHostInclude>false</UseHostInclude>
+    </CudaCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>Z:\Softower\Installed\VulcanSDK\Include;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\glfw\include;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\imgui;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\imgui\backends;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>third_party\glfw\src\Release\glfw3.lib;Release\imgui.lib;Z:\Softower\Installed\VulcanSDK\Lib\vulkan-1.lib;cudadevrt.lib;cudart_static.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>Z:/Softower/Installed/VulcanSDK/Lib;Z:/Softower/Installed/VulcanSDK/Lib/$(Configuration);Z:/Softower/Installed/CUDAToolkit/lib/x64;Z:/Softower/Installed/CUDAToolkit/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>Z:/Projects/Real-Time GPU Physics &amp; Rendering Benchmark Tool/GPUBenchmarkTool/build/Release/GPUBenchmarkTool.lib</ImportLibrary>
+      <ProgramDataBaseFile>Z:/Projects/Real-Time GPU Physics &amp; Rendering Benchmark Tool/GPUBenchmarkTool/build/Release/GPUBenchmarkTool.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <CudaLink>
+      <AdditionalOptions>-forward-unknown-to-host-compiler -Wno-deprecated-gpu-targets -D_WINDOWS -Xcompiler=" /EHsc" -Xcompiler="-O2 -Ob2" -DNDEBUG "--generate-code=arch=compute_75,code=[compute_75,sm_75]" "--generate-code=arch=compute_86,code=[compute_86,sm_86]" "--generate-code=arch=compute_89,code=[compute_89,sm_89]" "--generate-code=arch=compute_90,code=[compute_90,sm_90]" -Xcompiler=-MD</AdditionalOptions>
+      <PerformDeviceLink>true</PerformDeviceLink>
+    </CudaLink>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>Z:\Softower\Installed\VulcanSDK\Include;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\glfw\include;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\imgui;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\imgui\backends;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IMGUI_IMPL_VULKAN_NO_PROTOTYPES;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IMGUI_IMPL_VULKAN_NO_PROTOTYPES;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>Z:\Softower\Installed\VulcanSDK\Include;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\glfw\include;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\imgui;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\imgui\backends;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <CudaCompile>
+      <Include>Z:\Softower\Installed\VulcanSDK\Include;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\glfw\include;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\imgui;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\imgui\backends;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\src;%(Include)</Include>
+      <Defines>%(Defines);_WINDOWS;NDEBUG;IMGUI_IMPL_VULKAN_NO_PROTOTYPES;CMAKE_INTDIR="MinSizeRel"</Defines>
+      <AdditionalOptions>%(AdditionalOptions) -std=c++17 --generate-code=arch=compute_75,code=[compute_75,sm_75] --generate-code=arch=compute_86,code=[compute_86,sm_86] --generate-code=arch=compute_89,code=[compute_89,sm_89] --generate-code=arch=compute_90,code=[compute_90,sm_90] -Xcompiler="/EHsc -Ob1"</AdditionalOptions>
+      <CodeGeneration></CodeGeneration>
+      <CompileOut>$(IntDir)%(Filename).obj</CompileOut>
+      <CudaRuntime>Static</CudaRuntime>
+      <GPUDebugInfo>false</GPUDebugInfo>
+      <GenerateRelocatableDeviceCode>true</GenerateRelocatableDeviceCode>
+      <Optimization>O1</Optimization>
+      <Runtime>MD</Runtime>
+      <TargetMachinePlatform>64</TargetMachinePlatform>
+      <UseHostInclude>false</UseHostInclude>
+    </CudaCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>Z:\Softower\Installed\VulcanSDK\Include;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\glfw\include;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\imgui;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\imgui\backends;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>third_party\glfw\src\MinSizeRel\glfw3.lib;MinSizeRel\imgui.lib;Z:\Softower\Installed\VulcanSDK\Lib\vulkan-1.lib;cudadevrt.lib;cudart_static.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>Z:/Softower/Installed/VulcanSDK/Lib;Z:/Softower/Installed/VulcanSDK/Lib/$(Configuration);Z:/Softower/Installed/CUDAToolkit/lib/x64;Z:/Softower/Installed/CUDAToolkit/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>Z:/Projects/Real-Time GPU Physics &amp; Rendering Benchmark Tool/GPUBenchmarkTool/build/MinSizeRel/GPUBenchmarkTool.lib</ImportLibrary>
+      <ProgramDataBaseFile>Z:/Projects/Real-Time GPU Physics &amp; Rendering Benchmark Tool/GPUBenchmarkTool/build/MinSizeRel/GPUBenchmarkTool.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <CudaLink>
+      <AdditionalOptions>-forward-unknown-to-host-compiler -Wno-deprecated-gpu-targets -D_WINDOWS -Xcompiler=" /EHsc" -Xcompiler="-O1 -Ob1" -DNDEBUG "--generate-code=arch=compute_75,code=[compute_75,sm_75]" "--generate-code=arch=compute_86,code=[compute_86,sm_86]" "--generate-code=arch=compute_89,code=[compute_89,sm_89]" "--generate-code=arch=compute_90,code=[compute_90,sm_90]" -Xcompiler=-MD</AdditionalOptions>
+      <PerformDeviceLink>true</PerformDeviceLink>
+    </CudaLink>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>Z:\Softower\Installed\VulcanSDK\Include;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\glfw\include;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\imgui;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\imgui\backends;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IMGUI_IMPL_VULKAN_NO_PROTOTYPES;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IMGUI_IMPL_VULKAN_NO_PROTOTYPES;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>Z:\Softower\Installed\VulcanSDK\Include;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\glfw\include;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\imgui;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\imgui\backends;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <CudaCompile>
+      <Include>Z:\Softower\Installed\VulcanSDK\Include;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\glfw\include;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\imgui;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\imgui\backends;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\src;%(Include)</Include>
+      <Defines>%(Defines);_WINDOWS;NDEBUG;IMGUI_IMPL_VULKAN_NO_PROTOTYPES;CMAKE_INTDIR="RelWithDebInfo"</Defines>
+      <AdditionalOptions>%(AdditionalOptions) -std=c++17 --generate-code=arch=compute_75,code=[compute_75,sm_75] --generate-code=arch=compute_86,code=[compute_86,sm_86] --generate-code=arch=compute_89,code=[compute_89,sm_89] --generate-code=arch=compute_90,code=[compute_90,sm_90] -Xcompiler="/EHsc -Zi -Ob1"</AdditionalOptions>
+      <CodeGeneration></CodeGeneration>
+      <CompileOut>$(IntDir)%(Filename).obj</CompileOut>
+      <CudaRuntime>Static</CudaRuntime>
+      <GPUDebugInfo>false</GPUDebugInfo>
+      <GenerateRelocatableDeviceCode>true</GenerateRelocatableDeviceCode>
+      <Optimization>O2</Optimization>
+      <Runtime>MD</Runtime>
+      <TargetMachinePlatform>64</TargetMachinePlatform>
+      <UseHostInclude>false</UseHostInclude>
+    </CudaCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>Z:\Softower\Installed\VulcanSDK\Include;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\glfw\include;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\imgui;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\third_party\imgui\backends;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>third_party\glfw\src\RelWithDebInfo\glfw3.lib;RelWithDebInfo\imgui.lib;Z:\Softower\Installed\VulcanSDK\Lib\vulkan-1.lib;cudadevrt.lib;cudart_static.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>Z:/Softower/Installed/VulcanSDK/Lib;Z:/Softower/Installed/VulcanSDK/Lib/$(Configuration);Z:/Softower/Installed/CUDAToolkit/lib/x64;Z:/Softower/Installed/CUDAToolkit/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>Z:/Projects/Real-Time GPU Physics &amp; Rendering Benchmark Tool/GPUBenchmarkTool/build/RelWithDebInfo/GPUBenchmarkTool.lib</ImportLibrary>
+      <ProgramDataBaseFile>Z:/Projects/Real-Time GPU Physics &amp; Rendering Benchmark Tool/GPUBenchmarkTool/build/RelWithDebInfo/GPUBenchmarkTool.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <CudaLink>
+      <AdditionalOptions>-forward-unknown-to-host-compiler -Wno-deprecated-gpu-targets -D_WINDOWS -Xcompiler=" /EHsc" -Xcompiler=" -Zi -O2 -Ob1" -DNDEBUG "--generate-code=arch=compute_75,code=[compute_75,sm_75]" "--generate-code=arch=compute_86,code=[compute_86,sm_86]" "--generate-code=arch=compute_89,code=[compute_89,sm_89]" "--generate-code=arch=compute_90,code=[compute_90,sm_90]" -Xcompiler=-MD</AdditionalOptions>
+      <PerformDeviceLink>true</PerformDeviceLink>
+    </CudaLink>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule Z:/Projects/Real-Time GPU Physics ^&amp; Rendering Benchmark Tool/GPUBenchmarkTool/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SZ:/Projects/Real-Time GPU Physics &amp; Rendering Benchmark Tool/GPUBenchmarkTool" "-BZ:/Projects/Real-Time GPU Physics &amp; Rendering Benchmark Tool/GPUBenchmarkTool/build" --check-stamp-file "Z:/Projects/Real-Time GPU Physics &amp; Rendering Benchmark Tool/GPUBenchmarkTool/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCUDAInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\NVIDIA-CUDA.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\NVIDIA.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-NVIDIA-CUDA.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\build\CMakeFiles\4.0.2\CMakeCCompiler.cmake;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\build\CMakeFiles\4.0.2\CMakeCUDACompiler.cmake;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\build\CMakeFiles\4.0.2\CMakeCXXCompiler.cmake;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\build\CMakeFiles\4.0.2\CMakeRCCompiler.cmake;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\build\CMakeFiles\4.0.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule Z:/Projects/Real-Time GPU Physics ^&amp; Rendering Benchmark Tool/GPUBenchmarkTool/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SZ:/Projects/Real-Time GPU Physics &amp; Rendering Benchmark Tool/GPUBenchmarkTool" "-BZ:/Projects/Real-Time GPU Physics &amp; Rendering Benchmark Tool/GPUBenchmarkTool/build" --check-stamp-file "Z:/Projects/Real-Time GPU Physics &amp; Rendering Benchmark Tool/GPUBenchmarkTool/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCUDAInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\NVIDIA-CUDA.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\NVIDIA.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-NVIDIA-CUDA.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\build\CMakeFiles\4.0.2\CMakeCCompiler.cmake;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\build\CMakeFiles\4.0.2\CMakeCUDACompiler.cmake;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\build\CMakeFiles\4.0.2\CMakeCXXCompiler.cmake;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\build\CMakeFiles\4.0.2\CMakeRCCompiler.cmake;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\build\CMakeFiles\4.0.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule Z:/Projects/Real-Time GPU Physics ^&amp; Rendering Benchmark Tool/GPUBenchmarkTool/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SZ:/Projects/Real-Time GPU Physics &amp; Rendering Benchmark Tool/GPUBenchmarkTool" "-BZ:/Projects/Real-Time GPU Physics &amp; Rendering Benchmark Tool/GPUBenchmarkTool/build" --check-stamp-file "Z:/Projects/Real-Time GPU Physics &amp; Rendering Benchmark Tool/GPUBenchmarkTool/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCUDAInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\NVIDIA-CUDA.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\NVIDIA.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-NVIDIA-CUDA.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\build\CMakeFiles\4.0.2\CMakeCCompiler.cmake;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\build\CMakeFiles\4.0.2\CMakeCUDACompiler.cmake;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\build\CMakeFiles\4.0.2\CMakeCXXCompiler.cmake;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\build\CMakeFiles\4.0.2\CMakeRCCompiler.cmake;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\build\CMakeFiles\4.0.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule Z:/Projects/Real-Time GPU Physics ^&amp; Rendering Benchmark Tool/GPUBenchmarkTool/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SZ:/Projects/Real-Time GPU Physics &amp; Rendering Benchmark Tool/GPUBenchmarkTool" "-BZ:/Projects/Real-Time GPU Physics &amp; Rendering Benchmark Tool/GPUBenchmarkTool/build" --check-stamp-file "Z:/Projects/Real-Time GPU Physics &amp; Rendering Benchmark Tool/GPUBenchmarkTool/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCUDAInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\NVIDIA-CUDA.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\NVIDIA.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-NVIDIA-CUDA.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\build\CMakeFiles\4.0.2\CMakeCCompiler.cmake;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\build\CMakeFiles\4.0.2\CMakeCUDACompiler.cmake;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\build\CMakeFiles\4.0.2\CMakeCXXCompiler.cmake;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\build\CMakeFiles\4.0.2\CMakeRCCompiler.cmake;Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\build\CMakeFiles\4.0.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\src\BenchmarkMetrics.cpp" />
+    <ClInclude Include="Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\src\BenchmarkMetrics.h" />
+    <ClCompile Include="Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\src\ImGuiLayer.cpp" />
+    <ClInclude Include="Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\src\ImGuiLayer.h" />
+    <CudaCompile Include="..\src\PhysicsEngine.cu" />
+    <ClInclude Include="Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\src\PhysicsEngine.h" />
+    <ClCompile Include="Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\src\VulkanRenderer.cpp" />
+    <ClInclude Include="Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\src\VulkanRenderer.h" />
+    <ClCompile Include="Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\build\ZERO_CHECK.vcxproj">
+      <Project>{6143737A-8AE9-3C9E-B007-AC18D768A01C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\build\third_party\glfw\src\glfw.vcxproj">
+      <Project>{A5E7132D-E848-319C-95D2-7AADF07E9896}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\build\imgui.vcxproj">
+      <Project>{59AAD29E-36A1-3A1C-B4FF-42731A9A8D9D}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 12.9.targets" />
+  </ImportGroup>
+</Project>

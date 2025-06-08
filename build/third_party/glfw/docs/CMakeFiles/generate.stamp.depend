@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.0/Modules/FindDoxygen.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/FindPackageMessage.cmake
+Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/third_party/glfw/docs/CMakeLists.txt

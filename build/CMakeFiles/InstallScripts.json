@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/build/cmake_install.cmake",
+		"Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/build/third_party/glfw/cmake_install.cmake",
+		"Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/build/third_party/glfw/src/cmake_install.cmake",
+		"Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/build/third_party/glfw/docs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

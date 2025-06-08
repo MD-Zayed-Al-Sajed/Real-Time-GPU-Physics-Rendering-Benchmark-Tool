@@ -1,0 +1,1 @@
+-D__CUDA_ARCH__=520 -D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo -c -TP  -DCUDA_DOUBLE_MATH_FUNCTIONS -EHsc "-IZ:/Softower/Installed/CUDAToolkit/bin/../include"   "Z:\Projects\Real-Time GPU Physics & Rendering Benchmark Tool\GPUBenchmarkTool\out\build\x64-Debug\CMakeFiles\3.29.5-msvc4\CompilerIdCUDA\tmp\CMakeCUDACompilerId.cudafe1.cpp" 

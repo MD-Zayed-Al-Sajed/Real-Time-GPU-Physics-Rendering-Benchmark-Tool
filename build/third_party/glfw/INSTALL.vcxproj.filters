@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\build\CMakeFiles\65a3ba0459aea028e1680750f1db7cb1\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{28B85A2D-4D30-3CF2-B4A8-4DEEE7386BDC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

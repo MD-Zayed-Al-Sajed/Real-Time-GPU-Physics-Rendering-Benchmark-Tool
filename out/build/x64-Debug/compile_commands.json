@@ -1,0 +1,200 @@
+[
+{
+  "directory": "Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\\backends\" -IZ:\\Softower\\Installed\\VulcanSDK\\Include -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\include\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\src\" /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /FoCMakeFiles\\imgui.dir\\third_party\\imgui\\backends\\imgui_impl_glfw.cpp.obj /FdCMakeFiles\\imgui.dir\\imgui.pdb /FS -c \"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\\backends\\imgui_impl_glfw.cpp\"",
+  "file": "Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\\backends\\imgui_impl_glfw.cpp",
+  "output": "CMakeFiles\\imgui.dir\\third_party\\imgui\\backends\\imgui_impl_glfw.cpp.obj"
+},
+{
+  "directory": "Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\\backends\" -IZ:\\Softower\\Installed\\VulcanSDK\\Include -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\include\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\src\" /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /FoCMakeFiles\\imgui.dir\\third_party\\imgui\\backends\\imgui_impl_vulkan.cpp.obj /FdCMakeFiles\\imgui.dir\\imgui.pdb /FS -c \"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\\backends\\imgui_impl_vulkan.cpp\"",
+  "file": "Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\\backends\\imgui_impl_vulkan.cpp",
+  "output": "CMakeFiles\\imgui.dir\\third_party\\imgui\\backends\\imgui_impl_vulkan.cpp.obj"
+},
+{
+  "directory": "Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\\backends\" -IZ:\\Softower\\Installed\\VulcanSDK\\Include -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\include\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\src\" /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /FoCMakeFiles\\imgui.dir\\third_party\\imgui\\imgui.cpp.obj /FdCMakeFiles\\imgui.dir\\imgui.pdb /FS -c \"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\\imgui.cpp\"",
+  "file": "Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\\imgui.cpp",
+  "output": "CMakeFiles\\imgui.dir\\third_party\\imgui\\imgui.cpp.obj"
+},
+{
+  "directory": "Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\\backends\" -IZ:\\Softower\\Installed\\VulcanSDK\\Include -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\include\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\src\" /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /FoCMakeFiles\\imgui.dir\\third_party\\imgui\\imgui_demo.cpp.obj /FdCMakeFiles\\imgui.dir\\imgui.pdb /FS -c \"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\\imgui_demo.cpp\"",
+  "file": "Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\\imgui_demo.cpp",
+  "output": "CMakeFiles\\imgui.dir\\third_party\\imgui\\imgui_demo.cpp.obj"
+},
+{
+  "directory": "Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\\backends\" -IZ:\\Softower\\Installed\\VulcanSDK\\Include -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\include\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\src\" /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /FoCMakeFiles\\imgui.dir\\third_party\\imgui\\imgui_draw.cpp.obj /FdCMakeFiles\\imgui.dir\\imgui.pdb /FS -c \"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\\imgui_draw.cpp\"",
+  "file": "Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\\imgui_draw.cpp",
+  "output": "CMakeFiles\\imgui.dir\\third_party\\imgui\\imgui_draw.cpp.obj"
+},
+{
+  "directory": "Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\\backends\" -IZ:\\Softower\\Installed\\VulcanSDK\\Include -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\include\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\src\" /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /FoCMakeFiles\\imgui.dir\\third_party\\imgui\\imgui_tables.cpp.obj /FdCMakeFiles\\imgui.dir\\imgui.pdb /FS -c \"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\\imgui_tables.cpp\"",
+  "file": "Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\\imgui_tables.cpp",
+  "output": "CMakeFiles\\imgui.dir\\third_party\\imgui\\imgui_tables.cpp.obj"
+},
+{
+  "directory": "Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\\backends\" -IZ:\\Softower\\Installed\\VulcanSDK\\Include -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\include\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\src\" /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /FoCMakeFiles\\imgui.dir\\third_party\\imgui\\imgui_widgets.cpp.obj /FdCMakeFiles\\imgui.dir\\imgui.pdb /FS -c \"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\\imgui_widgets.cpp\"",
+  "file": "Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\\imgui_widgets.cpp",
+  "output": "CMakeFiles\\imgui.dir\\third_party\\imgui\\imgui_widgets.cpp.obj"
+},
+{
+  "directory": "Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIMGUI_IMPL_VULKAN_NO_PROTOTYPES -IZ:\\Softower\\Installed\\VulcanSDK\\Include -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\include\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\\backends\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\src\" /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /FoCMakeFiles\\GPUBenchmarkTool.dir\\src\\BenchmarkMetrics.cpp.obj /FdCMakeFiles\\GPUBenchmarkTool.dir\\ /FS -c \"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\src\\BenchmarkMetrics.cpp\"",
+  "file": "Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\src\\BenchmarkMetrics.cpp",
+  "output": "CMakeFiles\\GPUBenchmarkTool.dir\\src\\BenchmarkMetrics.cpp.obj"
+},
+{
+  "directory": "Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIMGUI_IMPL_VULKAN_NO_PROTOTYPES -IZ:\\Softower\\Installed\\VulcanSDK\\Include -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\include\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\\backends\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\src\" /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /FoCMakeFiles\\GPUBenchmarkTool.dir\\src\\ImGuiLayer.cpp.obj /FdCMakeFiles\\GPUBenchmarkTool.dir\\ /FS -c \"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\src\\ImGuiLayer.cpp\"",
+  "file": "Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\src\\ImGuiLayer.cpp",
+  "output": "CMakeFiles\\GPUBenchmarkTool.dir\\src\\ImGuiLayer.cpp.obj"
+},
+{
+  "directory": "Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/out/build/x64-Debug",
+  "command": "Z:\\Softower\\Installed\\CUDAToolkit\\bin\\nvcc.exe -forward-unknown-to-host-compiler -DIMGUI_IMPL_VULKAN_NO_PROTOTYPES -IZ:\\Softower\\Installed\\VulcanSDK\\Include -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\include\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\\backends\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\src\" -D_WINDOWS -Xcompiler=\" /EHsc\" -Xcompiler=\" -Zi -Ob0 -Od /RTC1\" -std=c++17 \"--generate-code=arch=compute_75,code=[compute_75,sm_75]\" \"--generate-code=arch=compute_86,code=[compute_86,sm_86]\" \"--generate-code=arch=compute_89,code=[compute_89,sm_89]\" \"--generate-code=arch=compute_90,code=[compute_90,sm_90]\" -Xcompiler=-MDd -x cu -rdc=true -c \"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\src\\PhysicsEngine.cu\" -o CMakeFiles\\GPUBenchmarkTool.dir\\src\\PhysicsEngine.cu.obj -Xcompiler=-FdCMakeFiles\\GPUBenchmarkTool.dir\\,-FS",
+  "file": "Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\src\\PhysicsEngine.cu",
+  "output": "CMakeFiles\\GPUBenchmarkTool.dir\\src\\PhysicsEngine.cu.obj"
+},
+{
+  "directory": "Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIMGUI_IMPL_VULKAN_NO_PROTOTYPES -IZ:\\Softower\\Installed\\VulcanSDK\\Include -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\include\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\\backends\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\src\" /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /FoCMakeFiles\\GPUBenchmarkTool.dir\\src\\VulkanRenderer.cpp.obj /FdCMakeFiles\\GPUBenchmarkTool.dir\\ /FS -c \"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\src\\VulkanRenderer.cpp\"",
+  "file": "Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\src\\VulkanRenderer.cpp",
+  "output": "CMakeFiles\\GPUBenchmarkTool.dir\\src\\VulkanRenderer.cpp.obj"
+},
+{
+  "directory": "Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DIMGUI_IMPL_VULKAN_NO_PROTOTYPES -IZ:\\Softower\\Installed\\VulcanSDK\\Include -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\include\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\imgui\\backends\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\src\" /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /FoCMakeFiles\\GPUBenchmarkTool.dir\\src\\main.cpp.obj /FdCMakeFiles\\GPUBenchmarkTool.dir\\ /FS -c \"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\src\\main.cpp\"",
+  "file": "Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\src\\main.cpp",
+  "output": "CMakeFiles\\GPUBenchmarkTool.dir\\src\\main.cpp.obj"
+},
+{
+  "directory": "Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\include\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\out\\build\\x64-Debug\\third_party\\glfw\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Fothird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\context.c.obj /Fdthird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\context.c\"",
+  "file": "Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\context.c",
+  "output": "third_party\\glfw\\src\\CMakeFiles\\glfw.dir\\context.c.obj"
+},
+{
+  "directory": "Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\include\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\out\\build\\x64-Debug\\third_party\\glfw\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Fothird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\init.c.obj /Fdthird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\init.c\"",
+  "file": "Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\init.c",
+  "output": "third_party\\glfw\\src\\CMakeFiles\\glfw.dir\\init.c.obj"
+},
+{
+  "directory": "Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\include\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\out\\build\\x64-Debug\\third_party\\glfw\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Fothird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\input.c.obj /Fdthird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\input.c\"",
+  "file": "Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\input.c",
+  "output": "third_party\\glfw\\src\\CMakeFiles\\glfw.dir\\input.c.obj"
+},
+{
+  "directory": "Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\include\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\out\\build\\x64-Debug\\third_party\\glfw\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Fothird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\monitor.c.obj /Fdthird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\monitor.c\"",
+  "file": "Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\monitor.c",
+  "output": "third_party\\glfw\\src\\CMakeFiles\\glfw.dir\\monitor.c.obj"
+},
+{
+  "directory": "Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\include\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\out\\build\\x64-Debug\\third_party\\glfw\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Fothird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\platform.c.obj /Fdthird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\platform.c\"",
+  "file": "Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\platform.c",
+  "output": "third_party\\glfw\\src\\CMakeFiles\\glfw.dir\\platform.c.obj"
+},
+{
+  "directory": "Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\include\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\out\\build\\x64-Debug\\third_party\\glfw\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Fothird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\vulkan.c.obj /Fdthird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\vulkan.c\"",
+  "file": "Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\vulkan.c",
+  "output": "third_party\\glfw\\src\\CMakeFiles\\glfw.dir\\vulkan.c.obj"
+},
+{
+  "directory": "Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\include\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\out\\build\\x64-Debug\\third_party\\glfw\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Fothird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\window.c.obj /Fdthird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\window.c\"",
+  "file": "Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\window.c",
+  "output": "third_party\\glfw\\src\\CMakeFiles\\glfw.dir\\window.c.obj"
+},
+{
+  "directory": "Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\include\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\out\\build\\x64-Debug\\third_party\\glfw\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Fothird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\egl_context.c.obj /Fdthird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\egl_context.c\"",
+  "file": "Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\egl_context.c",
+  "output": "third_party\\glfw\\src\\CMakeFiles\\glfw.dir\\egl_context.c.obj"
+},
+{
+  "directory": "Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\include\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\out\\build\\x64-Debug\\third_party\\glfw\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Fothird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\osmesa_context.c.obj /Fdthird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\osmesa_context.c\"",
+  "file": "Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\osmesa_context.c",
+  "output": "third_party\\glfw\\src\\CMakeFiles\\glfw.dir\\osmesa_context.c.obj"
+},
+{
+  "directory": "Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\include\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\out\\build\\x64-Debug\\third_party\\glfw\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Fothird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\null_init.c.obj /Fdthird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\null_init.c\"",
+  "file": "Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\null_init.c",
+  "output": "third_party\\glfw\\src\\CMakeFiles\\glfw.dir\\null_init.c.obj"
+},
+{
+  "directory": "Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\include\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\out\\build\\x64-Debug\\third_party\\glfw\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Fothird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\null_monitor.c.obj /Fdthird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\null_monitor.c\"",
+  "file": "Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\null_monitor.c",
+  "output": "third_party\\glfw\\src\\CMakeFiles\\glfw.dir\\null_monitor.c.obj"
+},
+{
+  "directory": "Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\include\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\out\\build\\x64-Debug\\third_party\\glfw\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Fothird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\null_window.c.obj /Fdthird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\null_window.c\"",
+  "file": "Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\null_window.c",
+  "output": "third_party\\glfw\\src\\CMakeFiles\\glfw.dir\\null_window.c.obj"
+},
+{
+  "directory": "Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\include\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\out\\build\\x64-Debug\\third_party\\glfw\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Fothird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\null_joystick.c.obj /Fdthird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\null_joystick.c\"",
+  "file": "Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\null_joystick.c",
+  "output": "third_party\\glfw\\src\\CMakeFiles\\glfw.dir\\null_joystick.c.obj"
+},
+{
+  "directory": "Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\include\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\out\\build\\x64-Debug\\third_party\\glfw\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Fothird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_module.c.obj /Fdthird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\win32_module.c\"",
+  "file": "Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\win32_module.c",
+  "output": "third_party\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_module.c.obj"
+},
+{
+  "directory": "Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\include\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\out\\build\\x64-Debug\\third_party\\glfw\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Fothird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_time.c.obj /Fdthird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\win32_time.c\"",
+  "file": "Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\win32_time.c",
+  "output": "third_party\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_time.c.obj"
+},
+{
+  "directory": "Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\include\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\out\\build\\x64-Debug\\third_party\\glfw\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Fothird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_thread.c.obj /Fdthird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\win32_thread.c\"",
+  "file": "Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\win32_thread.c",
+  "output": "third_party\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_thread.c.obj"
+},
+{
+  "directory": "Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\include\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\out\\build\\x64-Debug\\third_party\\glfw\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Fothird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_init.c.obj /Fdthird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\win32_init.c\"",
+  "file": "Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\win32_init.c",
+  "output": "third_party\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_init.c.obj"
+},
+{
+  "directory": "Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\include\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\out\\build\\x64-Debug\\third_party\\glfw\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Fothird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_joystick.c.obj /Fdthird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\win32_joystick.c\"",
+  "file": "Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\win32_joystick.c",
+  "output": "third_party\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_joystick.c.obj"
+},
+{
+  "directory": "Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\include\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\out\\build\\x64-Debug\\third_party\\glfw\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Fothird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_monitor.c.obj /Fdthird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\win32_monitor.c\"",
+  "file": "Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\win32_monitor.c",
+  "output": "third_party\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_monitor.c.obj"
+},
+{
+  "directory": "Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\include\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\out\\build\\x64-Debug\\third_party\\glfw\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Fothird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_window.c.obj /Fdthird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\win32_window.c\"",
+  "file": "Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\win32_window.c",
+  "output": "third_party\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_window.c.obj"
+},
+{
+  "directory": "Z:/Projects/Real-Time GPU Physics & Rendering Benchmark Tool/GPUBenchmarkTool/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\include\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\" -I\"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\out\\build\\x64-Debug\\third_party\\glfw\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /Fothird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\wgl_context.c.obj /Fdthird_party\\glfw\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\wgl_context.c\"",
+  "file": "Z:\\Projects\\Real-Time GPU Physics & Rendering Benchmark Tool\\GPUBenchmarkTool\\third_party\\glfw\\src\\wgl_context.c",
+  "output": "third_party\\glfw\\src\\CMakeFiles\\glfw.dir\\wgl_context.c.obj"
+}
+]

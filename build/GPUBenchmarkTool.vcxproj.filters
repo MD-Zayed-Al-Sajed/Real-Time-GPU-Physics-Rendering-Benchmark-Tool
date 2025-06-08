@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\src\BenchmarkMetrics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\src\ImGuiLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\src\VulkanRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\src\BenchmarkMetrics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\src\ImGuiLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\src\PhysicsEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\src\VulkanRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="..\src\PhysicsEngine.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Z:\Projects\Real-Time GPU Physics &amp; Rendering Benchmark Tool\GPUBenchmarkTool\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BD7655CE-53CD-3D61-BF53-E585910D4C75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{89382F59-E1A2-3732-8288-D5AC6A3AF5AE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
