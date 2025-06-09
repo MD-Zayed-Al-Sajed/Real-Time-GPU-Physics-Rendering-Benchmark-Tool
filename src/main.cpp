@@ -1,36 +1,33 @@
 ﻿#include <iostream>
 #define GLFW_INCLUDE_VULKAN
 #include <GLFW/glfw3.h>
-#include "PhysicsEngine.h"
 
-// Forward declaration of our future Vulkan system
-class VulkanRenderer;
+#include "PhysicsEngine.h"
+#include "VulkanRenderer.h"
+
+// Global Vulkan renderer
 VulkanRenderer* renderer = nullptr;
 
 // Window dimensions
 const uint32_t WIDTH = 1280;
 const uint32_t HEIGHT = 720;
-
 GLFWwindow* window = nullptr;
 
 // -------------------------
-// Initialize GLFW + window
+// Initialize GLFW window
 // -------------------------
 void initWindow() {
-    // Initialize GLFW library
     if (!glfwInit()) {
-        throw std::runtime_error("Failed to initialize GLFW!");
+        throw std::runtime_error("❌ Failed to initialize GLFW!");
     }
 
-    // We use Vulkan, so disable OpenGL
-    glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
+    glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);  // No OpenGL context
     glfwWindowHint(GLFW_RESIZABLE, GLFW_TRUE);
 
-    // Create the application window
     window = glfwCreateWindow(WIDTH, HEIGHT, "GPU Physics Benchmark Tool", nullptr, nullptr);
     if (!window) {
         glfwTerminate();
-        throw std::runtime_error("Failed to create GLFW window!");
+        throw std::runtime_error("❌ Failed to create GLFW window!");
     }
 }
 
@@ -41,36 +38,47 @@ void mainLoop() {
     while (!glfwWindowShouldClose(window)) {
         glfwPollEvents();
 
-        // In the future: ImGui update → Physics tick → Vulkan render
-        // For now: just render one color
+        // (In the future) Render frame
+         renderer->drawFrame();
     }
 }
 
 // -------------------------
-// Clean up memory
+// Clean up resources
 // -------------------------
 void cleanup() {
-    // Delete Vulkan renderer (if exists)
-    if (renderer) {
-        delete renderer;
-    }
+    delete renderer;
 
-    // Destroy window and terminate GLFW
     glfwDestroyWindow(window);
     glfwTerminate();
 }
 
 // -------------------------
-// Entry point
+// Entry Point
 // -------------------------
 int main() {
     try {
-        std::cout << "Running GPU Physics Benchmark...\n";
-        runPhysicsBenchmark(1'000'000); // 1 million particles
+        std::cout << "🚀 Running GPU Physics Benchmark...\n";
+
+        // Step 1: Initialize Window
+        initWindow();
+
+        // Step 2: Run CUDA benchmark (1M particles)
+        runPhysicsBenchmark(1'000'000);  // Optional: move this to ImGui later
+
+        // Step 3: Initialize Vulkan renderer
+        renderer = new VulkanRenderer(window);
+
+        // Step 4: Start event/render loop
+        mainLoop();
+
+        // Step 5: Clean shutdown
+        cleanup();
+
         return 0;
     }
     catch (const std::exception& e) {
-        std::cerr << "Exception: " << e.what() << std::endl;
+        std::cerr << "❌ Exception: " << e.what() << std::endl;
         return EXIT_FAILURE;
     }
 }
